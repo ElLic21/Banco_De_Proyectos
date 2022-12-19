@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width"
+        initial-scale="1.0">
+        <meta charset="utf-8">
+        <title> Banco de Proyectos </title> <!--Aldo Alfonso Gómez Santos-->
+        <link rel="stylesheet" href="css/estilo.css"> 
+        <script src = "https://kit.fontawesome.com/7d2216d142.js" crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <a href="#" class="marca">Banco de Proyectos</a>
+            <ul>
+                <li><a href="#home" onClick = "alternar()">Inicio</a></li>
+                <li><a href="#about" onClick = "alternar()">Nosotros</a></li>
+                <li><a href="#services" onClick = "alternar()">Categorias</a></li>
+                <li><a href="#portafolio" onClick = "alternar()">Logros</a></li>
+                <li><a href="#team" onClick = "alternar()">Equipo</a></li>
+                <li><a href="#Contac" onClick = "alternar()">Contacto</a></li>
+                <li><a href="#home" onClick = "showloginBox()">Login</a></li>
+            </ul>
+            <div class="toggle" onClick="alternar()"></div>
+        </header>
+        <!-- Banner -->
+        <section class="banner" id="home">
+            <h2>Se el <span>Futuro</span> del Tecnológico</h2>
+        </section>
+        <!-- About -->
+        <section class="sec" id = "about">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>Quiénes somos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae 
+                        adipisci natus velit pariatur ab delectus, totam mollitia cumque odit 
+                        fugit temporibus vitae. Molestias minus neque corporis aliquid deserunt 
+                        labore sit.</p>
+                    <a href="#" class="btn"> Saber más</a>
+                </div>
+            </div>
+        </section>
+        <!-- Services -->
+        <section clase ="sec" id = "services">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> Qué hacemos </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vitae 
+                        voluptatem incidunt officiis, corporis modi numquam possimus quaerat 
+                        voluptates voluptatum dolores illum ipsam? Corporis magni aliquid illum 
+                        at officia minima.
+                    </p>
+                </div>
+                <div class="services">
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="imagenes/pensar.png">
+                        </div>
+                        <div class="content">
+                            <h2> Diseño </h2>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam 
+                                repudiandae dolorum nesciunt et tenetur incidunt. Impedit id 
+                                sapiente itaque delectus! Accusantium ipsa illo sed explicabo 
+                                officiis corrupti qui, at aliquam?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="imagenes/proyectar.png">
+                        </div>
+                        <div class="content">
+                            <h2> Desarrollo </h2>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam 
+                                repudiandae dolorum nesciunt et tenetur incidunt. Impedit id 
+                                sapiente itaque delectus! Accusantium ipsa illo sed explicabo 
+                                officiis corrupti qui, at aliquam?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="imagenes/diseño1.png"> <!-- En esta sección debe de ir la tuta de las imagenes-->
+                        </div>
+                        <div class="content">
+                            <h2> Publicidad </h2>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam 
+                                repudiandae dolorum nesciunt et tenetur incidunt. Impedit id 
+                                sapiente itaque delectus! Accusantium ipsa illo sed explicabo 
+                                officiis corrupti qui, at aliquam?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Stats -->
+        <section class="sec stats" id = "portafolio">
+            <div class="content">
+                <div class="mxw800p"> 
+                    <h3> Logros </h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut molestias
+                        delectus perferendis, dignissimos perspiciatis quaerat ullam facilis ad 
+                        cupiditate nobis eos at laudantium commodi architecto nostrum quas magni 
+                        excepturi voluptates!
+                    </p>
+                </div>
+                <div class="statsBox">   <!-- Aldo Alfonso Gómez Santos -->
+                    <div class="box">
+                        <h2> 50+ </h2>
+                        <h4> Proyectos </h4>
+                    </div>
+                    <div class="box">
+                        <h2> 50+ </h2>
+                        <h4> Egresados Satisfechos </h4>
+                    </div>
+                    <div class="box">
+                        <h2> 25+ </h2>
+                        <h4> Asesores </h4>
+                    </div>
+                    <div class="box">
+                        <h2> 100+ </h2>
+                        <h4> Logros </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portafolio -->
+        <section class="sec work">
+            <div class="content">                   <!-- Aldo Alfonso Gómez Santos -->
+                <div class="mxw800p">
+                    <h3> Proyectos recientes </h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore maiores
+                        perferendis maxime, eius sint nulla nihil sequi alias quos nesciunt aut 
+                        quae quod. Veritatis labore sint error minima ratione consequuntur.
+                    </p>
+                </div>                           
+                <div class="workBx">
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 1</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 2</h2></a>
+                    </div>                           <!-- Aldo Alfonso Gómez Santos -->
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 3</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 4</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 5</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 6</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 7</h2></a>
+                    </div>
+                    <div class="brand">
+                        <a href="#"> <h2> Proyecto 8</h2></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--Team -->
+        <section class="sec" id="team">
+            <div class="content">
+                <div class="mxw800">
+                    <h3> Conoce a nuestros asesores </h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente corporis eaque 
+                        laudantium sed doloribus repellendus numquam rem velit aliquam itaque? Doloremque,
+                        magnam quos est obcaecati quae dicta veritatis quas impedit!
+                    </p>
+                </div>
+                <div class="teamBox">
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="imagenes/loyo.jpg">
+                        </div>
+                        <div class="details">
+                            <h2> Angel <br> <span> Master en Informatica </span> </h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="imagenes/gibran3.jpg">
+                        </div>
+                        <div class="details">
+                            <h2> Francisco <br> <span> Master en Desarrollo Web </span> </h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="imagenes/fin1.jpg">
+                        </div>
+                        <div class="details">
+                            <h2> Docentes <br> <span> Master's en programación </span> </h2>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="imgBx">
+                            <img src="imagenes/6.jpg">
+                        </div>
+                        <div class="details">
+                            <h2> Pancracia <br> <span> Master en Base de datos </span> </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Sliders AAGS-->
+        <section class="sec">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> ¡Conoce más! </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sapiente nam voluptates, ducimus labore quae, non fuga 
+                        magni placeat molestiae laborum incidunt necessitatibus 
+                        eaque id dolore aut delectus cupiditate expedita nulla.</p>
+                </div>
+                <div class="slider"> <!-- AAGS -->
+                    <div class="slider-items">
+                        <div class="item active">
+                            <img src="imagenes/sistemas.jpg" 
+                            alt="Creación de sitos Web. . .">
+                            <div class="caption">
+                                Creación de sitos Web. . .
+                            </div>
+                        </div>
+                        <div class="item">  <!-- AAGS -->
+                            <img src="imagenes/bioquimica.jpg" 
+                            alt="Industrias y más. . .">
+                            <div class="caption">
+                                Industrias y más. . .
+                            </div>
+                        </div>
+                        <div class="item">  <!-- AAGS -->
+                            <img src="imagenes/industrial.jpg" 
+                            alt="Descubre las novedades acerca de . . . ">
+                            <div class="caption">
+                                Descubre las novedades acerca de . . . 
+                            </div>
+                        </div>
+                        <div class="item">  <!-- AAGS -->
+                            <img src="imagenes/civil.jpg" 
+                            alt="Aprende más acerca de la construcción . . . ">
+                            <div class="caption">
+                                Aprende más acerca de la construcción . . . 
+                            </div>
+                        </div>
+                    </div>
+                    <!--Slider AAGS -->->
+                    <div class="left-slider"><</div>
+                    <div class="right-slider">></div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="sec_contact" id = "Contac">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3> Escribe para más información </h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis 
+                        quaerat sunt totam minus laudantium dolorem soluta facere eum mollitia 
+                        praesentium id, voluptate quia eligendi, corporis consequatur nesciunt!
+                    </p>
+                </div>           <!-- Aldo Alfonso Gómez Santos -->
+                <div class="contactForm">
+                    <form id="form" method="post" action="cliente_guardar.php">
+                        <div class="row100">
+                             <div class="inputBx50">
+                                <input type="text" name="nombre" placeholder="Nombre"
+                                 id="nombre" onkeyup="vali()">
+                                 <span id="name"></span>
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="email" placeholder="Email"
+                                 id="email" onkeyup="validacion()">
+                                 <span id="text"></span>
+                            </div> 
+                        </div>         <!-- Aldo Alfonso Gómez Santos -->
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Mensaje" id="mensaje" onkeyup="coment()"></textarea>
+                                <span id="mensaje"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Tefefono" id="telefono" onkeyup="coment()"></textarea>
+                                <span id="telefono"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Carrera" id="carrera" onkeyup="coment()"></textarea>
+                                <span id="carrera"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Password" id="password" onkeyup="coment()"></textarea>
+                                <span id="password"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea placeholder="Nivel" id="nivel" onkeyup="coment()"></textarea>
+                                <span id="nivel"></span>
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx1001">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="sci">
+                    <ul>
+                        <li><a href="#"><img src="imagenes/facebook.png"></a></li>
+                        <li><a href="#"><img src="imagenes/twitter.png"></a></li>
+                        <li><a href="#"><img src="imagenes/instagram.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Seción del Login-->
+            <section>
+                <div id="loginBox" class="loginBox">
+                    <img src="imagenes/user.png" class="user">
+                    <div class="btnClose" onClick="cerrarlogin()">
+                        <img src="imagenes/cancelar.png">
+                    </div>
+                        <h2> Iniciar sesión </h2>
+                        <form action="users_login.php" method="POST">
+                            <p>Email</p>
+                            <input type="text" 
+                                name="email"
+                                placeholder="Escribe tu email">
+                            <p>Contraseña</p>
+                            <input type="password" 
+                                name="password"
+                                placeholder="******">
+                            <input type="submit" value="Entrar">
+                            <a href="users_nuevo.php"> Crea una cuenta</a>
+                            <a href="#"> ¿Olvidó su contraseña? </a>
+                        </form>
+                </div>
+            </section>
+
+            <!-- Creación del botón back to top-->
+
+            <div id="button-up">
+                <i class="fa-sharp fa-solid fa-angle-up"></i>
+            </div>
+        </section>
+
+        <!-- SECCION DE JAVASCRIP -->
+        <script>
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0)
+            })
+                /*Aldo Alfonso Gómez Santos*/
+           function alternar(){
+        
+                var header = document.querySelector("header");
+                header.classList.toggle("active")
+            }
+
+
+
+            /*Sección del botón*/
+            buttonUp = document.getElementById("button-up");
+            buttonUp.addEventListener("click", scrollUp);
+            window.onscroll= function(){
+                var scroll=document.documentElement.scrollTop;
+                if(scroll>200){
+                    buttonUp.style.transform="scale(1)";
+                }
+                else{
+                    buttonUp.style.transform="scale(0)";
+                }
+            }
+            function scrollUp(){
+                var scroll = document.documentElement.scrollTop;
+                if(scroll > 0){
+                    window.requestAnimationFrame(scrollUp);
+                    window.scrollTo(0, scroll-(scroll/10));
+                }
+            }
+            /*validar campos*/
+            function validacion(){
+                var email=document.getElementById("email").value;
+                var text =document.getElementById("text");
+                var pattern=/^[^]+@[^]+\.[a-z]{2,3}/;
+                if(email.match(pattern)){ /*AAGS*/
+                    text.innerHTML="Email Valido";
+                    text.style.color="#4978ff";
+                }
+                else{
+                    text.innerHTML="¡Error! Introduzca un email valido";
+                    text.style.color="#ff0000";
+                }
+            }
+
+            function vali(){
+            var nombre = document.getElementById("nombre").value;
+            var text = document.getElementById("name");
+            var pattern = /^[A-Z a-z]*$/;
+            if (nombre.match(pattern)){ /*AAGS*/
+                text.innerHTML="Nombre Valido";
+                text.style.color ="#4978ff";
+            }
+            else{
+                text.innerHTML="Ingrese solo letras";
+                text.style.color ="#ff0000";
+            }
+        }
+        
+        function coment(){
+            var nombre = document.getElementById("comentario").value;
+            var text = document.getElementById("comentar");
+            var pattern = /^[A-Z a-z]*$/;
+            if (nombre.match(pattern)){ /*AAGS*/
+                text.innerHTML="Comentario Valido";
+                text.style.color ="#4978ff";
+            }
+            else{
+                text.innerHTML="Ingrese solo letras";
+                text.style.color ="#ff0000";
+            }
+        }
+        /*Sección de sliders*/
+        var slides=document.querySelector(".slider-items").children;
+        var nextSlider=document.querySelector(".right-slider");
+        var prevSlide=document.querySelector(".left-slider");
+        var totalSlides= slides.length;
+        var index=0
+        nextSlider.onclick =function(){ /*AAGS*/
+            next("siguiente");
+        }
+        prevSlide.onclick=function(){
+            next("anterior");
+        }
+        function next(direccion){
+            if(direccion=="siguiente"){
+                index++; /*AAGS*/
+                if(index==totalSlides){
+                    index=0;
+                }
+            }
+            else{
+            if(index==0){
+                index=totalSlides-1;
+            }
+            else{
+                index--; /*AAGS*/
+            }
+            }
+            for(i=0;i<totalSlides;i++){
+                slides[i].classList.remove("active");
+            }
+            slides[index].classList.add("active")
+
+            /*Sección del login del usuario*/
+            function showloginBox(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.add("active")
+            }
+            function cerrarlogin(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.remove("active")
+            
+            }
+        }
+        function showloginBox(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.add("active")
+            }
+            function cerrarlogin(){
+                loginBox = document.getElementById("loginBox");
+                loginBox.classList.remove("active")
+            
+            }
+        
+
+        </script>
+    </body>
+</html>
